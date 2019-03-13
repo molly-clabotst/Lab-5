@@ -26,7 +26,7 @@ iss(max_failed_attempts);
 
 function iss(attempts){
     if(attempts<=0){
-        console.log('Too many errors, abandoning requests to get ISS position.')
+        console.log('Too many errors, abandoning requests to get ISS position.');
         return
     }
     fetch(url)
